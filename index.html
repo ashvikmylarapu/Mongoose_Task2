@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Store into Online Shopping</title>
+	<style type="text/css">
+		body div{
+			vertical-align: middle;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div>
+
+		<h1>Enter the Details if you have </h1>
+		<form action="/items" method="post">
+			<label for="name">Name:</label>
+				<input type="text" name="name" id="name"   pattern="[a-zA-Z0-9]+"><br><br>
+			<label for="itemname">Item Name:</label>
+				<input type="text" name="itemname" id="itemname" required  pattern="[a-zA-Z0-9]+"><br><br>
+			<label for="price">price:</label>
+				<input type="number" name="price" id="price"  pattern="[0-9]+"><br><br>
+			<label for="quantity">quantity:</label>
+				<input type="number" name="quantity" id="quantity" required  pattern="[0-9]+"><br><br>
+			<input type="submit" name="submit" value="submit">
+		</form>
+
+	</div>
+
+</body>
+</html>
+
+
